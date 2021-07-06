@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
-.order-section {
+.flexible-section {
   display: flex;
 
   margin-bottom: 100px;
@@ -59,4 +59,166 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+}
+
+.about-section {
+  display: flex;
+  margin-bottom: 100px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/images/shapes/7.png");
+}
+
+.person-img img {
+  width: 45%;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+.about {
+  display: flex;
+}
+
+.about-class {
+  width: 50%;
+  margin-right: 300px;
+}
+.about-class h1 {
+  margin-right: 100px;
+  margin-top: 80px;
+  font-size: 40px;
+  color: #2980b9;
+}
+.about-class p {
+  text-align: justify;
+  color: gray;
+  line-height: 150%;
+}
+
+.about-class button {
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 90px;
+  border: none;
+  background-image: linear-gradient(#fba24f, #ff1e1e);
+  border-radius: 30px;
+}
+.about-class button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.recipie-section {
+  margin-bottom: 100px;
+}
+.recipie-title {
+  text-align: center;
+}
+.recipie-title h1 {
+  font-size: 30px;
+  color: #575757;
+}
+.recipie-title p {
+  color: gray;
+  line-height: 100%;
+}
+.recipie-class {
+  display: flex;
+}
+.recipie-card {
+  margin-left: 80px;
+  width: 350px;
+  padding-left: 10px;
+  border-radius: 20px;
+
+  box-shadow: 1px 1px 10px rgb(212, 219, 217);
+}
+.recipie-card img {
+  width: 85%;
+  padding: 23px 20px;
+}
+
+.recipie-card h1 {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.recipie-card p {
+  color: gray;
+  padding: 10px;
+}
+.subscribe-class {
+  box-shadow: 1px 1px 10px rgb(212, 219, 217);
+
+  margin-bottom: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-radius: 20px;
+}
+.follow-card {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 60px;
+  padding: 20px;
+}
+.follower {
+  padding-left: 140px;
+}
+.follower h1 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+.tastimonial {
+  margin-bottom: 100px;
+}
+
+.tastimonial h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.tastimonial p {
+  text-align: center;
+  color: gray;
+}
+.tastimonial-class {
+  display: flex;
+}
+.tastimonial-card {
+  box-shadow: 1px 1px 10px rgb(212, 219, 217);
+  margin: 5px 30px;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 40vh;
+  background: black;
+  display: block;
+}
+.footer-text {
+  padding-top: 50px;
+}
+.footer-text span {
+  color: #d35400;
+}
+.footer-text h1 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.footer-text p {
+  color: gray;
+  text-align: center;
+}
+
+.footer-text #footer {
+  color: gray;
+  text-align: center;
+  padding-top: 70px;
 }
