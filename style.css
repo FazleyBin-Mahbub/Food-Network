@@ -42,6 +42,7 @@ body {
   padding-left: 40px;
   color: #575757;
   text-align: justify;
+  line-height: 150%;
 }
 
 .order-class button {
